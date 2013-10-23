@@ -7,7 +7,7 @@ require_once("db_config/opendb.php");
 	<title>311 Project</title>
 </head>
 <body>
-<a href="upload_book/upload_book_form.php">Upload a textbook</a>
+<a href="/uploading/upload_book_form.php">Upload a textbook</a>
 <a href="/user_auth/user_signup.php">Sign Up</a>
 <a href="/user_auth/user_signin.php">Login</a>
 </body>
