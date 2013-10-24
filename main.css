@@ -1,0 +1,19 @@
+/* Lists */
+ul {
+	list-style: outside disc;
+	margin: 1em 0 1.5em 1.5em;
+}
+
+/* Tables */
+#mainTable {margin: .5em auto 1.5em auto; width: 98%;}
+ 
+	/* Tbody */
+#mainTable tbody td {padding: .5em .4em;}
+#mainTable tbody th {}
+
+
+/* HTML5 tags */
+header, section, footer,
+aside, nav, article, figure {
+	display: block;
+}
