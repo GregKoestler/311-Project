@@ -1,6 +1,7 @@
 <?php
 	session_start();
 	require_once ('create_user.php');
+	require_once ("../libs/libs.php");
 ?>
 
 <html>
@@ -8,6 +9,9 @@
 	<title>University of Windsor Used Book Store - Register</title>
 </head>
 <body>
+	<?php
+	generateHeader();
+	?>
 	<form action="create_user.php" method="post">
 		<?php display_errors(); ?>
 		First name<br /><input type="text" name="first_name" /><br />
